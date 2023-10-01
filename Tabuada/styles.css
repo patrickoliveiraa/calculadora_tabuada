@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Mooli&family=Poppins:ital,wght@1,200&display=swap');
+
+header{
+    background-color: #00836b;
+    font-family: Mooli, sans-serif;
+    padding: 10px;
+
+  
+
+}
+
+body {
+    font-family: Mooli, sans-serif;
+    background: radial-gradient(circle, #ffffff, #0099ff);
+
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgb(62, 158, 255);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #011725;
+    font-family: MontSerrat, sans-serif;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="number"] {
+    width: 90%;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    font-family: MontSerrat, sans-serif;
+    background-color: #00836b;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    
+
+}
+
+span{
+    color: #aa0d0d;
+}
+
+
+
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+img {
+    width: 30px; 
+    height: 30px; 
+}
+
+nav ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+}
+
+input[type="date"]::-webkit-datetime-edit-fields-wrapper{
+    color: #00836b;
+}
+
+footer{
+    background-color: #00836b;
+    margin-top: 390px;
+    height: 100%;
+    
+    
+}
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.coluna-esquerda,
+.coluna-centro,
+.coluna-direita {
+    flex: 1;
+    text-align: center;
+}
+
+.coluna-centro {
+    text-align: center;
+}

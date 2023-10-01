@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="styles.css">
+    <header>
+       <h1><img src="https://cdn-icons-png.flaticon.com/512/3167/3167764.png">  Gerador de Tabuada </h1>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+</head>
+<body>
+    
+
+    <div class="container">
+        
+
+<br>
+        <h2>Digite o número que deseja multiplicar:</h2>
+        <input type="number" id="numero" min="1" >
+        <span id="mensagemErro"></span> <br>
+        <button id="gerarBtn"><strong>Gerar Tabuada</strong></button>
+
+        <table id="tabuada">
+            <thead>
+                <tr>
+                    <th>X</th>
+                    <th>Resultado</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <h2>Digite seu nome:</h2>
+        <input type="text" id="nome" name="nome">
+
+        <h2>Você é estudante?</h2>
+        <label>
+            <input type="radio" name="estudante" value="sim">
+            Sim
+        </label>
+        
+        <label>
+            <input type="radio" name="estudante" value="nao">
+            Não
+        </label> 
+
+        <h2>Feedback do Site</h2>
+        <label>
+            <input type="checkbox" name="ajuda[]" value="tirou_duvidas">
+            Tirou minhas dúvidas
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="ajuda[]" value="ajudou_estudos">
+            Me ajudou com estudos
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="ajuda[]" value="curiosidades">
+            Curiosidades
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="ajuda[]" value="nao_ajudou">
+            Não me ajudou muito
+        </label>
+        <br>
+        <form>
+            <h2>Selecione a data:</h2>
+            <input type="date" id="data" name="data"> 
+
+        </form> <br>
+        <input type="submit" value="Enviar">
+        
+        
+        
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+<footer>
+        
+       
+    <div class="rodape">
+                
+                
+    <div class="coluna-esquerda">
+                    
+                   
+    <p>Caso o site venha a apresentar erros entrar em contato via 📩E-mail <br>ou pelo telefone de suporte 0800 99567</p>
+                </div>
+                <div class="coluna-centro">
+                    <p>Para apoiar nosso trabalho <br>nos siga nas redes socias na aba 📞Contato</p>
+                </div>
+                <div class="coluna-direita">
+                    
+                    
+    <p>Esse site foi desenvolvido em codigo aberto (Open-Source Software. <br>Fique a vontade para modificá-lo 😉</p>
+                </div>
+            </div>
+        </footer>
+</html>
