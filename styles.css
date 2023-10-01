@@ -131,3 +131,22 @@ footer{
 .coluna-centro {
     text-align: center;
 }
+
+.patrick{
+    height: 90px;
+    width: 60px;
+    border: 2px solid #000000;
+    border-radius: 2px;
+}
+.joao{
+    height: 90px;
+    width: 60px;
+    border: 2px solid #000000;
+    border-radius: 2px;
+}
+.edu{
+    height: 90px;
+    width: 60px;
+    border: 2px solid #000000;
+    border-radius: 2px;
+}
