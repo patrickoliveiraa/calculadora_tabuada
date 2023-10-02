@@ -11,6 +11,21 @@ header{
   
 
 }
+.li a {
+    text-decoration: none; 
+    background-color: #75c8ff;
+    color: #333333; 
+    padding: 10px 20px; 
+    margin-right: 10px; 
+    border: 3px solid #2e2e2e; 
+    border-radius: 5px; 
+}
+
+
+.li a:hover {
+    background-color: #333; 
+    color: #0084ff; 
+}
 
 body {
     font-family: Mooli, sans-serif;
@@ -48,18 +63,27 @@ input[type="number"] {
     border-radius: 3px;
 }
 
-button {
-    font-family: MontSerrat, sans-serif;
-    background-color: #00836b;
-    color: #000000;
-    border: none;
-    padding: 10px 20px;
-    margin-top: 10px;
-    cursor: pointer;
-    border-radius: 3px;
+
     
 
+#gerarBtn {
+    background-color: #00836b;
+    font-family: MontSerrat, sans-serif;
+    color: #000000;
+    padding: 10px 20px;
+    border: 3px;     
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 10px; 
 }
+
+#gerarBtn:hover {
+    background-color: #00ff9d; 
+    color: #000000; 
+}
+
+
 
 span{
     color: #aa0d0d;
@@ -152,4 +176,7 @@ footer{
     border: 2px solid #000000;
     border-radius: 2px;
     align-content: center;
+}
+.fotos{
+    align-items: center;
 }
